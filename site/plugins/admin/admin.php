@@ -54,6 +54,7 @@ if (Admin::isAdminArea()) {
         NavigationManager::addItem('extends', 'menus', '<i class="fab fa-elementor"></i>' . __('admin_menu_content_menus', Registry::get('settings.locale')), Http::getBaseUrl() . '/admin/menus', ['class' => 'nav-link']);
         NavigationManager::addItem('extends', 'fieldsets', '<i class="fas fa-list"></i>' . __('admin_menu_extends_fieldsets', Registry::get('settings.locale')), Http::getBaseUrl() . '/admin/fieldsets', ['class' => 'nav-link']);
         NavigationManager::addItem('extends', 'templates', '<i class="fas fa-layer-group"></i>' . __('admin_menu_extends_templates', Registry::get('settings.locale')), Http::getBaseUrl() . '/admin/templates', ['class' => 'nav-link']);
+        NavigationManager::addItem('extends', 'partials', '<i class="fas fa-layer-group"></i>' . __('admin_menu_extends_templates', Registry::get('settings.locale')), Http::getBaseUrl() . '/admin/partials', ['class' => 'nav-link']);
         NavigationManager::addItem('extends', 'snippets', '<i class="far fa-file-code"></i>' . __('admin_menu_extends_snippets', Registry::get('settings.locale')), Http::getBaseUrl() . '/admin/snippets', ['class' => 'nav-link']);
         NavigationManager::addItem('extends', 'plugins', '<i class="fas fa-plug"></i>' . __('admin_menu_extends_plugins', Registry::get('settings.locale')), Http::getBaseUrl() . '/admin/plugins', ['class' => 'nav-link']);
         NavigationManager::addItem('settings', 'settings', '<i class="fas fa-cog"></i>' . __('admin_menu_system_settings', Registry::get('settings.locale')), Http::getBaseUrl() . '/admin/settings', ['class' => 'nav-link']);
@@ -154,6 +155,7 @@ class Admin
         Http::getUriSegment(1) == 'menus'        and MenusManager::getMenusManager();
         Http::getUriSegment(1) == 'fieldsets'    and FieldsetsManager::getFieldsetsManager();
         Http::getUriSegment(1) == 'templates'    and TemplatesManager::getTemplatesManager();
+        Http::getUriSegment(1) == 'partials'     and TemplatesManager::getPartialsManager();
         Http::getUriSegment(1) == 'snippets'     and SnippetsManager::getSnippetsManager();
         Http::getUriSegment(1) == 'plugins'      and PluginsManager::getPluginsManager();
         Http::getUriSegment(1) == 'information'  and InformationManager::getInformationManager();

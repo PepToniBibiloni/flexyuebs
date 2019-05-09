@@ -34,6 +34,17 @@ Themes::view('admin/views/partials/content-start')->display();
 <div class="row">
 
     <div class="col-md-12">
+        <h3 class="h3">Pagina</h3>
+        <hr>
+    </div>
+<!--    <div class="col-md-4">-->
+<!--        <div class="form-group">-->
+<!---->
+<!--            --><?//= Form::label('entries[main]', 'Header', ['for' => 'systemSettingsSystemEntriesMain']) ?>
+<!--            --><?//= Form::select('entries[main]', $headers, $settings['author']['email'], ['class' => 'form-control', 'id' => 'systemSettingsSystemEntriesMain', 'required']) ?>
+<!--        </div>-->
+<!--    </div>-->
+    <div class="col-md-12">
         <h3 class="h3"><?=  __('admin_system_settings_site'); ?></h3>
         <hr>
     </div>

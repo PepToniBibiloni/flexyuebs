@@ -34,7 +34,7 @@
         <tr>
             <td>
                 <?php $count = count(Entries::getEntries($entry['slug'], 'slug', 'ASC')) ?>
-                <a href="<?php if ($count > 0): ?><?= Http::getBaseUrl() ?>/admin/entries/?entry=<?= $entry['slug'] ?><?php else: ?><?= Http::getBaseUrl() ?>/admin/entries/edit?entry=<?= $entry['slug'] ?><?php endif ?>"><?= $entry['title'] ?> <?= $entry['locale'] ?></a>
+                <a href="<?php if ($count > 0): ?><?= Http::getBaseUrl() ?>/admin/entries/?entry=<?= $entry['slug'] ?><?php else: ?><?= Http::getBaseUrl() ?>/admin/entries/edit?entry=<?= $entry['slug'] ?><?php endif ?>"><?= $entry['title'] ?></a>
                 <?php if ($count > 0): ?>
                     (<?= $count ?>)
                 <?php endif ?>

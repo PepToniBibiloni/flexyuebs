@@ -17,8 +17,8 @@ Themes::view('admin/views/partials/navbar')
                                         'attributes' => ['class' => 'navbar-item']
                                     ],
                        'templates_add' => [
-                                        'link' => Http::getBaseUrl() . '/admin/templates/add',
-                                        'title' => __('admin_create_new_template'),
+                                        'link' => Http::getBaseUrl() . '/admin/templates/rename?template=' . $name_current,
+                                        'title' => __('admin_rename'),
                                         'attributes' => ['class' => 'navbar-item active']
                                       ]
                       ])
@@ -28,16 +28,22 @@ Themes::view('admin/views/partials/content-start')->display();
 
 <div class="row">
     <div class="col-md-6">
-        <?= Form::open(); ?>
-        <?= Form::hidden('token', Token::generate()); ?>
+        <?= Form::open() ?>
+        <?= Form::hidden('token', Token::generate()) ?>
+        <?= Form::hidden('name_current', $name_current) ?>
+        <?= Form::hidden('type_current', $type) ?>
         <div class="form-group">
             <?= Form::label('name', __('admin_name'), ['for' => 'templateName']) ?>
-            <?= Form::input('name', '', ['class' => 'form-control', 'id' => 'templateName', 'required', 'data-validation' => 'length required', 'data-validation-allowing' => '-_', 'data-validation-length' => 'min1', 'data-validation-error-msg' => __('admin_templates_error_name_empty_input')]) ?>
+            <?= Form::input('name', $name_current, ['class' => 'form-control', 'id' => 'templateName',  'required', 'data-validation' => 'length required', 'data-validation-allowing' => '-_', 'data-validation-length' => 'min1', 'data-validation-error-msg' => __('admin_template_error_title_empty_input')]) ?>
         </div>
+        <div class="form-group">
+            <?= Form::label('type', __('admin_type'), ['for' => 'templateType']) ?>
+            <?= Form::select('type', ['template' => __('admin_template'), 'partial' => __('admin_partial')], $type, ['class' => 'form-control', 'id' => 'templateType']) ?>
+        </div>
+        <?= Form::submit('rename_template', __('admin_save'), ['class' => 'btn btn-black btn-fill btn-wd']) ?>
+        <?= Form::close() ?>
     </div>
 </div>
-<?= Form::submit('create_template', __('admin_create'), ['class' => 'btn btn-black']) ?>
-<?= Form::close() ?>
 
 <?php Themes::view('admin/views/partials/content-end')->display() ?>
 <?php Themes::view('admin/views/partials/footer')->display() ?>

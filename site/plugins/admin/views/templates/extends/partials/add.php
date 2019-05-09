@@ -36,7 +36,7 @@ Themes::view('admin/views/partials/content-start')->display();
         </div>
     </div>
 </div>
-<?= Form::submit('create_template', __('admin_create'), ['class' => 'btn btn-black']) ?>
+<?= Form::submit('create_partial', __('admin_create'), ['class' => 'btn btn-black']) ?>
 <?= Form::close() ?>
 
 <?php Themes::view('admin/views/partials/content-end')->display() ?>
