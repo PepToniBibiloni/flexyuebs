@@ -1,0 +1,15 @@
+title: 'Menú Es'
+items:
+  home:
+    title: 'Inicio'
+    url: 'home'
+    order: 1
+  blog:
+    title: 'Blog'
+    url: 'blog'
+    order: 2
+  about:
+      title: 'Galería'
+      url: 'gallery'
+      order: 3
+lang: es

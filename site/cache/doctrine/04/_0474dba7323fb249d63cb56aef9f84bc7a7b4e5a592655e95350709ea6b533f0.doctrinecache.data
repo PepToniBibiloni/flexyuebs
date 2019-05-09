@@ -1,0 +1,10 @@
+1554396493
+a:3:{i:0;a:9:{s:5:"title";s:5:"About";s:5:"image";s:9:"lilia.jpg";s:8:"template";s:5:"about";s:8:"fieldset";s:5:"about";s:4:"date";s:25:"December 26 2018 10:26:04";s:3:"url";s:25:"http://flextype.com/about";s:4:"slug";s:5:"about";s:8:"base_url";s:33:"http://flextype.com/site/entries/";s:7:"content";s:0:"";}i:1;a:8:{s:5:"title";s:4:"Blog";s:8:"template";s:4:"blog";s:8:"fieldset";s:4:"blog";s:4:"date";s:25:"December 25 2018 22:27:15";s:3:"url";s:24:"http://flextype.com/blog";s:4:"slug";s:4:"blog";s:8:"base_url";s:33:"http://flextype.com/site/entries/";s:7:"content";s:0:"";}i:2;a:9:{s:5:"title";s:4:"Home";s:8:"template";s:4:"home";s:10:"visibility";s:7:"visible";s:4:"date";s:25:"December 25 2018 23:46:58";s:8:"fieldset";s:7:"default";s:3:"url";s:24:"http://flextype.com/home";s:4:"slug";s:4:"home";s:8:"base_url";s:33:"http://flextype.com/site/entries/";s:7:"content";s:299:"
+<h1 style="text-align: center;">
+    Welcome! 
+</h1>
+<p style="text-align: center;" class="lead">
+    Welcome to your new Flextype powered website. 
+    <br>
+    Flextype is succesfully installed, you can start editing the content and customising your site in <a href="./admin">Admin panel</a>
+</p>";}}

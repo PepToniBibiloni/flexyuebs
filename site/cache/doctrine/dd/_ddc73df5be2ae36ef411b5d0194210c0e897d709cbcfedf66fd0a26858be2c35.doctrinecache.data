@@ -1,0 +1,10 @@
+1554805567
+a:4:{i:0;a:8:{s:5:"title";s:5:"About";s:8:"template";s:4:"blog";s:8:"fieldset";s:4:"blog";s:4:"date";s:25:"December 25 2018 22:27:15";s:3:"url";s:26:"https://flex.uebs.eu/about";s:4:"slug";s:5:"about";s:8:"base_url";s:34:"https://flex.uebs.eu/site/entries/";s:7:"content";s:0:"";}i:1;a:8:{s:5:"title";s:4:"Blog";s:8:"template";s:4:"blog";s:8:"fieldset";s:4:"blog";s:4:"date";s:25:"December 25 2018 22:27:15";s:3:"url";s:25:"https://flex.uebs.eu/blog";s:4:"slug";s:4:"blog";s:8:"base_url";s:34:"https://flex.uebs.eu/site/entries/";s:7:"content";s:0:"";}i:2;a:15:{s:5:"title";s:7:"Galeria";s:5:"image";s:13:"clipboard.png";s:8:"template";s:7:"gallery";s:8:"fieldset";s:7:"gallery";s:4:"date";s:22:"March 29 2019 15:50:49";s:7:"image-1";s:5:"1.jpg";s:7:"image-2";s:5:"2.jpg";s:7:"image-3";s:5:"4.jpg";s:7:"image-4";s:5:"5.jpg";s:7:"image-5";s:5:"6.jpg";s:7:"image-6";s:5:"7.jpg";s:3:"url";s:28:"https://flex.uebs.eu/gallery";s:4:"slug";s:7:"gallery";s:8:"base_url";s:34:"https://flex.uebs.eu/site/entries/";s:7:"content";s:0:"";}i:3;a:9:{s:5:"title";s:4:"Home";s:8:"template";s:4:"home";s:10:"visibility";s:7:"visible";s:4:"date";s:25:"December 25 2018 23:46:58";s:8:"fieldset";s:7:"default";s:3:"url";s:25:"https://flex.uebs.eu/home";s:4:"slug";s:4:"home";s:8:"base_url";s:34:"https://flex.uebs.eu/site/entries/";s:7:"content";s:297:"
+<h1 style="text-align: center;">
+    Hola! 
+</h1>
+<p style="text-align: center;" class="lead">
+    Welcome to your new Flextype powered website. 
+    <br>
+    Flextype is succesfully installed, you can start editing the content and customising your site in <a href="./admin">Admin panel</a> 
+</p>";}}

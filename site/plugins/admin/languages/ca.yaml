@@ -1,0 +1,475 @@
+admin: "Admin"
+
+admin_cache: "Memòria cau"
+
+admin_cancel: "Cancel·la"
+
+admin_create: "Crea"
+
+admin_debugging: "Depuració"
+
+descripció de l'administrador: "Descripció"
+
+admin_email: "Correu electrònic"
+
+admin_flextype_version: "Uebs Version"
+
+admin_information_heading: "Informació"
+
+admin_installed: "Installed"
+
+admin_keywords: "Paraules clau"
+
+admin_login: "Login"
+
+admin_menu_profile: "Perfil"
+
+admin_menu_content_entries: "Entrades"
+
+admin_menu_extends: "s'estén"
+
+admin_menu_extends_plugins: "Connectors"
+
+admin_menu_extends_themes: "Temes"
+
+admin_menu_help: "Ajuda"
+
+admin_menu_help_documentation: "Obtenir ajuda"
+
+admin_menu_logout: "Logout"
+
+admin_menu_entries: "Entrades"
+
+administrador_menu_profil: "Perfil"
+
+admin_menu_system: "Sistema"
+
+admin_menu_system_information: "Informació"
+
+admin_menu_system_settings: "Configuració"
+
+admin_menu_view_site: "Mostra el lloc"
+
+admin_menu_extends_snippets: "Fragments"
+
+admin_message_cache_files_deleted: "Esborrats els fitxers de memòria cau"
+
+admin_message_entry_changes_saved: "Els canvis s'han desat correctament"
+
+admin_message_entry_cloned: "Entrada clonada"
+
+admin_message_entry_created: "Entrada creada"
+
+admin_message_entry_deleted: "Entrada suprimida"
+
+admin_message_entry_file_deleted: "S'ha suprimit el fitxer amb èxit"
+
+admin_message_entry_file_uploaded: "Fitxer carregat correctament"
+
+admin_message_entry_file_not_uploaded: "El fitxer no s'ha carregat"
+
+admin_message_entry_moved: "Entrada moguda"
+
+admin_message_entry_renamed: "Entrada renombrada"
+
+admin_message_settings_saved: "Configuració desada"
+
+admin_message_wrong_username_password: "Usuari incorrecte o contrasenya"
+
+admin_not_installed: "No instal·lat"
+
+admin_off: "off"
+
+admin_on: "on"
+
+admin_add: "Afegir"
+
+admin_entries_attributes: "Atributs d'entrada"
+
+admin_entries_fieldset_for_template: "Fieldset for template"
+
+admin_content: "Contingut"
+
+admin_entries_create_new: "Crea una entrada nova"
+
+data_admin: "Data"
+
+admin_entries_delete: "Suprimeix"
+
+descripció de l'administrador_entries: "Descripció"
+
+admin_entries_draft: "esborrany"
+
+admin_entries_edit: "Edita"
+
+admin_menu_content_menus: "Menus"
+
+admin_entries_edit_blocks: "Blocs"
+
+admin_entries_edit_media: "Media"
+
+admin_entries_edit_entry: "Edita l'entrada"
+
+admin_entries_edit_settings: "Configuració"
+
+admin_entries_edit_template: "Plantilla"
+
+admin_entries_edit_templates: "Plantilles"
+
+admin_entries_editor: "Entrada"
+
+admin_entries_editor_fieldset: "Fieldset"
+
+admin_entries_editor_source: "Font"
+
+admin_entries_editor_template: "Plantilla"
+
+admin_entries_error_name_empty_input: "El nom ha de ser un valor alfanumèric (de 1 caràcters)"
+
+admin_entries_error_title_empty_input: "El títol ha de ser un valor alfanumèric (a partir de 1 caràcters)"
+
+admin_entries_files: "Fitxers"
+
+admin_entries_files_delete: "Suprimeix"
+
+admin_entries_files_upload: "Carregar"
+
+admin_entries_heading: "Entrades"
+
+admin_entries_hidden: "ocult"
+
+admin_entries_image_preview: "Vista prèvia de la imatge"
+
+admin_move: "Mou"
+
+admin_entries_name: "Name"
+
+admin_entries_entry: "Entrada"
+
+admin_entries_parent_entry: "pare principal"
+
+admin_entries_preview: "Vista prèvia"
+
+admin_entries_publish: "Publica"
+
+admin_entries_rename: "Reanomena"
+
+admin_entries_rename_entry: "Rename"
+
+admin_entries_save_entry: "Desa l'entrada"
+
+admin_entries_settings: "Configuració"
+
+admin_entries_switch_back_to_editor_mode: "mode editor"
+
+admin_entries_switch_to_expert_mode: "mode expert"
+
+admin_entries_template: "Plantilla"
+
+admin_entries_title: "Títol"
+
+admin_entries_url: "Url"
+
+admin_entries_view: "Vista"
+
+admin_visibility: "Visibilitat"
+
+admin_entries_visible: "Visible"
+
+Contrasenya_admin: "Contrasenya"
+
+admin_php_built_on: "PHP Built on"
+
+admin_php_version: "Versió PHP"
+
+admin_plugins_author_email: "Correu electrònic de l’autor"
+
+admin_plugins_author_name: "Autor nom"
+
+admin_plugins_author_url: "url de l’autor"
+
+admin_plugins_bugs: "Bugs"
+
+admin_plugins_description: "Descripció"
+
+admin_plugins_get_more_plugins: "Obteniu més connectors"
+
+admin_plugins_heading: "Plugins"
+admin_plugins_homepage: "Homepage"
+admin_plugins_info: "Info"
+admin_plugins_license: "License"
+admin_plugins_name: "Name"
+admin_plugins_status: "Status"
+admin_plugins_status_disabled: "disabled"
+admin_plugins_status_enabled: "enabled"
+admin_plugins_version: "Version"
+
+admin_role: "Rol"
+
+admin_save: "Desa"
+
+admin_security_check_results: "Resultats de verificació de seguretat"
+
+admin_security_check_results_debug: "A causa del tipus i la quantitat d’informació que un error pot donar als intrusos quan DISPLAY ERRORs TRUE, aconsellem encaridament establir DISPLAY ERROR FALSE en sistemes de producció."
+
+admin_security_check_results_htaccess: "S'ha trobat que el fitxer .htaccess de Flextype es pot escriure. Us aconsellem d’eliminar tots els permisos d’escriptura."
+
+admin_security_check_results_index: "S'ha trobat que el fitxer index.php de Flextype es pot escriure. Us aconsellem d’eliminar tots els permisos d’escriptura."
+
+admin_server: "Servidor"
+
+admin_settings: "Configuració"
+
+admin_site: "Site"
+
+admin_system: "Sistema"
+
+admin_system_clear_cache: "Esborra la memòria cache"
+
+admin_system_settings_system_entries_error404_title: "Títol d'entrada d'error404"
+
+admin_system_settings_system_entries_error404_description: "Descripció de l'entrada del error404"
+
+admin_system_settings_system_entries_error404_content: "Contingut d'entrada d'error404"
+
+admin_system_settings_system_entries_error404_template: "Plantilla d'entrada d'error404"
+
+admin_system_settings_heading: "Configuració"
+
+admin_system_settings_site: "lloc"
+
+admin_system_settings_general: "General"
+
+admin_system_settings_error_404_page: "Error de pàgina 404"
+
+admin_system_settings_debuggig: "Depuració"
+
+admin_system_settings_cache: "Memòria cau"
+
+admin_system_settings_site_author_email: "correu electrònic de l’autor"
+
+admin_system_settings_site_author_name: "Autor nom"
+
+admin_system_settings_site_description: "descripció del lloc"
+
+admin_system_settings_site_keywords: "Paraules clau del lloc"
+
+admin_system_settings_site_robots: "Robots"
+
+admin_system_settings_site_title: "títol del lloc"
+
+admin_system_settings_system: "Sistema"
+
+admin_system_settings_system_cache_driver: "Controlador de memòria cau"
+
+admin_system_settings_system_cache_enabled: "Caché habilitat"
+
+admin_system_settings_system_cache_lifetime: "Durada de la memòria cau"
+
+admin_system_settings_system_cache_prefix: "prefix de memòria cau"
+
+admin_system_settings_system_charset: "Charset"
+
+admin_system_settings_system_date_format: "Format de data"
+
+admin_system_settings_system_errors_display: "Mostra els errors"
+
+admin_system_settings_system_locale: "Locale"
+
+admin_system_settings_system_entries_main: "Entrada principal"
+
+admin_system_settings_system_theme: "Tema"
+
+admin_system_settings_system_timezone: "Fusell horari"
+
+admin_username: "Nom d'usuari"
+
+admin_users_create: "Crea un usuari"
+
+admin_users_create_new: "Crea un nou usuari"
+
+admin_view_site: "Mostra el lloc"
+
+admin_web_server: "Servidor web"
+
+admin_web_server_php_interface: "WebServer to PHP Interface"
+
+admin_menus_heading: "Menus"
+
+admin_menu: "Menú"
+
+admin_menus: "Menú"
+
+admin_menus_create_new_category: "Crear nova categoria"
+
+admin_menus_delete_category: "Suprimeix la categoria"
+
+admin_menus_create_new_item: "Crea un nou article"
+
+nom_admin_admin: "Nom"
+
+admin_menu_item_edit: "Edita"
+
+admin_menu_item_delete: "Suprimeix"
+
+admin_menus_url: "Url"
+
+admin_menus_order: "Ordre"
+
+admin_menus_edit_category: "Edita la categoria"
+
+admin_create_new_menu: "Crea un nou menú"
+
+admin_menu_extends_fieldsets: "Fieldsets"
+
+admin_menu_extends_templates: "Plantilles"
+
+admin_preview: "Vista prèvia"
+
+admin_template: "Plantilla"
+
+admin_templates: "Plantilles"
+
+admin_template_create_new: "Crear nova plantilla"
+
+admin_fieldset: "Fieldset"
+
+admin_create_new_fieldset: "Crea un nou camp de camp"
+
+nom_admin: "Nom"
+
+admin_fieldsets: "Fieldsets"
+
+admin_edit: "Edita"
+
+admin_rename: "Rename"
+
+admin_duplicate: "Duplicate"
+
+admin_delete: "Suprimeix"
+
+admin_title_slider: "Títol del cursor"
+
+admin_tlf: "Phone"
+
+admin_mail: "Mail"
+
+admin_title: "Title"
+
+admin_summary: "Resum"
+
+admin_snippet: "Fragment"
+
+admin_snippets: "Fragments"
+
+admin_type: "Type"
+
+admin_partial: "parcial"
+
+admin_clone: "Clonar"
+
+admin_create_new_snippet: "Crea un nou fragment"
+
+admin_create_new_template: "Crear nova plantilla"
+
+admin_message_template_created: "Plantilla creada"
+
+admin_message_template_deleted: "Plantilla suprimida"
+
+admin_message_template_renamed: "Plantilla renombrada"
+
+admin_message_template_duplicated: "Plantilla duplicada"
+
+admin_message_template_saved: "S'ha desat la plantilla"
+
+admin_message_snippet_saved: "Fragment guardat"
+
+admin_message_snippet_created: "Creació de fragment"
+
+admin_message_snippet_deleted: "Snippet deleted"
+
+admin_message_snippet_renamed: "Snippet renombrat"
+
+admin_message_snippet_duplicated: "Fragment duplicat"
+
+admin_message_menu_saved: "Menú desat"
+
+admin_message_menu_created: "Menú creat"
+
+admin_message_menu_deleted: "Menú suprimit"
+
+admin_message_menu_renamed: "Menú renombrat"
+
+admin_message_menu_duplicated: "Menú duplicat"
+
+admin_message_fieldset_saved: "Fieldset saved"
+
+admin_message_fieldset_created: "Creació de camp"
+
+admin_message_fieldset_deleted: "Fieldset deleted"
+
+admin_message_fieldset_renamed: "Fieldset renombrat"
+
+admin_message_fieldset_duplicated: "Fieldset duplicated"
+
+admin_menus_error_name_empty_input: "El nom ha de ser un valor alfanumèric (de 1 caràcters)"
+
+admin_menus_error_title_empty_input: "El títol ha de ser un valor alfanumèric (a partir de 1 caràcters)"
+
+admin_fieldsets_error_name_empty_input: "El nom ha de ser un valor alfanumèric (a partir de 1 caràcters)"
+
+admin_fieldsets_error_title_empty_input: "El títol ha de ser un valor alfanumèric (de 1 caràcters)"
+
+admin_templates_error_name_empty_input: "El nom ha de ser un valor alfanumèric (de 1 caràcters)"
+
+admin_snippets_error_name_empty_input: "El nom ha de ser un valor alfanumèric (de 1 caràcters)"
+
+admin_system_settings_system_cache_enabled_false: "Desactivat"
+
+admin_system_settings_system_cache_enabled_true: "On"
+
+admin_system_settings_system_errors_enabled_false: "Desactivat"
+
+admin_system_settings_system_errors_enabled_true: "On"
+
+admin_system_settings_media: "Media"
+
+admin_system_settings_system_upload_images_quality: "Qualitat"
+
+admin_system_settings_system_upload_images_width: "Amplada"
+
+admin_system_settings_system_upload_images_height: "Alçada"
+
+admin_system_settings_system_upload_accept_file_types: "Accepta tipus de fitxer"
+
+admin_embeded_code: "Codi incorporat"
+
+admin_shortcode: "Shortcode"
+
+admin_php_code: "Codi PHP"
+
+admin_entries_choose_files_to_upload: "Trieu el fitxer"
+
+admin_entries_browse_files: "Navega"
+
+admin_copy: "Copia"
+
+admin_system_settings_admin_panel: "Panell d'administració"
+
+admin_system_settings_admin_panel_theme: "Tema"
+
+admin_system_settings_admin_panel_theme_light: "Light"
+
+admin_system_settings_admin_panel_theme_dark: "Dark"
+admin_entries_move: "Mou"
+name_admin_admin: "Nom"
+admin_system_settings_cache_memcache_server: "Servidor Memcache"
+admin_system_settings_cache_memcache_port: "Port Memcache"
+admin_system_settings_cache_memcached_server: "Servidor memcached"
+admin_system_settings_cache_memcached_port: "Port Memcached"
+admin_system_settings_cache_redis_socket: "Redis Socket"
+admin_system_settings_cache_redis_password: "Redis contrasenya"
+admin_system_settings_cache_redis_server: "Redis Server"
+admin_system_settings_cache_redis_port: "Redis Port"
+admin_system_settings_cache_sqlite3_database: "Base de dades SQLite3"
+admin_system_settings_cache_sqlite3_table: "Taula SQLite3"

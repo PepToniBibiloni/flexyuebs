@@ -1,0 +1,15 @@
+title: 'Menú Catalán'
+items:
+  home:
+    title: 'Inici'
+    url: 'home'
+    order: 1
+  blog:
+    title: 'Blog'
+    url: 'blog'
+    order: 2
+  about:
+      title: 'Galeria'
+      url: 'gallery'
+      order: 3
+lang: ca

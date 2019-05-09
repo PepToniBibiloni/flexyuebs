@@ -1,0 +1,122 @@
+[28-Mar-2019 15:09:30] TypeError: Argument 1 passed to Flextype\YamlParser::decode() must be of the type string, null given, called in C:\xampp\htdocs\flextype\site\plugins\admin\classes\EntriesManager.php on line 308 in C:\xampp\htdocs\flextype\flextype\parsers\YamlParser.php at line 96
+[28-Mar-2019 15:25:39] ErrorException: Notice: Undefined variable: entries_list in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\sidebar.php at line 40
+[28-Mar-2019 15:25:41] ErrorException: Notice: Undefined variable: entries_list in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\sidebar.php at line 40
+[28-Mar-2019 15:25:43] ErrorException: Notice: Undefined variable: entries_list in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\sidebar.php at line 40
+[28-Mar-2019 15:25:45] ErrorException: Notice: Undefined variable: entries_list in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\sidebar.php at line 40
+[28-Mar-2019 15:25:46] ErrorException: Notice: Undefined variable: entries_list in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\sidebar.php at line 40
+[28-Mar-2019 15:25:46] ErrorException: Notice: Undefined variable: entries_list in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\sidebar.php at line 40
+[28-Mar-2019 15:25:51] ErrorException: Notice: Undefined variable: entries_list in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\sidebar.php at line 40
+[28-Mar-2019 15:25:55] ErrorException: Notice: Undefined variable: entries_list in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\sidebar.php at line 40
+[28-Mar-2019 15:26:44] ErrorException: Fatal Error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 49152 bytes) in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\head.php at line 36
+[28-Mar-2019 15:27:15] ErrorException: Fatal Error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 49152 bytes) in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\head.php at line 36
+[28-Mar-2019 15:27:18] ErrorException: Fatal Error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\head.php at line 36
+[28-Mar-2019 15:27:23] ErrorException: Fatal Error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\head.php at line 36
+[28-Mar-2019 15:27:27] ErrorException: Fatal Error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\head.php at line 36
+[28-Mar-2019 15:37:16] ParseError: syntax error, unexpected end of file in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\sidebar.php at line 60
+[28-Mar-2019 15:37:18] ParseError: syntax error, unexpected end of file in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\sidebar.php at line 60
+[28-Mar-2019 15:37:19] ParseError: syntax error, unexpected end of file in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\sidebar.php at line 60
+[28-Mar-2019 15:37:19] ParseError: syntax error, unexpected end of file in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\sidebar.php at line 60
+[28-Mar-2019 15:37:19] ParseError: syntax error, unexpected end of file in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\sidebar.php at line 60
+[28-Mar-2019 15:37:19] ParseError: syntax error, unexpected end of file in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\sidebar.php at line 60
+[28-Mar-2019 15:38:00] ErrorException: Notice: Undefined variable: entries_list in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\sidebar.php at line 42
+[28-Mar-2019 15:38:01] ErrorException: Notice: Undefined variable: entries_list in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\sidebar.php at line 42
+[28-Mar-2019 15:38:01] ErrorException: Notice: Undefined variable: entries_list in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\sidebar.php at line 42
+[28-Mar-2019 15:38:01] ErrorException: Notice: Undefined variable: entries_list in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\sidebar.php at line 42
+[28-Mar-2019 15:38:02] ErrorException: Notice: Undefined variable: entries_list in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\sidebar.php at line 42
+[28-Mar-2019 15:38:02] ErrorException: Notice: Undefined variable: entries_list in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\sidebar.php at line 42
+[28-Mar-2019 15:38:02] ErrorException: Notice: Undefined variable: entries_list in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\sidebar.php at line 42
+[28-Mar-2019 15:38:03] ErrorException: Notice: Undefined variable: entries_list in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\sidebar.php at line 42
+[28-Mar-2019 15:38:03] ErrorException: Notice: Undefined variable: entries_list in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\sidebar.php at line 42
+[28-Mar-2019 15:38:03] ErrorException: Notice: Undefined variable: entries_list in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\sidebar.php at line 42
+[28-Mar-2019 15:38:03] ErrorException: Notice: Undefined variable: entries_list in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\sidebar.php at line 42
+[28-Mar-2019 15:38:04] ErrorException: Notice: Undefined variable: entries_list in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\sidebar.php at line 42
+[28-Mar-2019 15:38:04] ErrorException: Notice: Undefined variable: entries_list in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\sidebar.php at line 42
+[28-Mar-2019 15:39:16] ErrorException: Notice: Undefined variable: entries_list in C:\xampp\htdocs\flextype\site\plugins\admin\views\partials\sidebar.php at line 42
+[28-Mar-2019 15:58:28] RuntimeException: No item "sidebar_menu_item" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:58:29] RuntimeException: No item "sidebar_menu_item" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:58:30] RuntimeException: No item "sidebar_menu_item" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:58:31] RuntimeException: No item "sidebar_menu_item" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:58:31] RuntimeException: No item "sidebar_menu_item" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:58:31] RuntimeException: No item "sidebar_menu_item" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:58:31] RuntimeException: No item "sidebar_menu_item" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:58:32] RuntimeException: No item "sidebar_menu_item" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:58:32] RuntimeException: No item "sidebar_menu_item" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:58:32] RuntimeException: No item "sidebar_menu_item" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:58:32] RuntimeException: No item "sidebar_menu_item" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:58:32] RuntimeException: No item "sidebar_menu_item" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:58:33] RuntimeException: No item "sidebar_menu_item" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:58:33] RuntimeException: No item "sidebar_menu_item" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:58:33] RuntimeException: No item "sidebar_menu_item" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:58:33] RuntimeException: No item "sidebar_menu_item" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:58:50] RuntimeException: No item "sidebar_menu_item" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:58:51] RuntimeException: No item "sidebar_menu_item" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:58:51] RuntimeException: No item "sidebar_menu_item" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:58:51] RuntimeException: No item "sidebar_menu_item" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:58:52] RuntimeException: No item "sidebar_menu_item" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:58:52] RuntimeException: No item "sidebar_menu_item" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:58:52] RuntimeException: No item "sidebar_menu_item" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:59:05] RuntimeException: No item "admin_navigation.hola" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:59:06] RuntimeException: No item "admin_navigation.hola" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:59:07] RuntimeException: No item "admin_navigation.hola" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:59:07] RuntimeException: No item "admin_navigation.hola" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:59:07] RuntimeException: No item "admin_navigation.hola" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:59:07] RuntimeException: No item "admin_navigation.hola" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:59:07] RuntimeException: No item "admin_navigation.hola" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:59:08] RuntimeException: No item "admin_navigation.hola" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:59:08] RuntimeException: No item "admin_navigation.hola" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:59:08] RuntimeException: No item "admin_navigation.hola" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:59:08] RuntimeException: No item "admin_navigation.hola" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:59:08] RuntimeException: No item "admin_navigation.hola" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 15:59:09] RuntimeException: No item "admin_navigation.hola" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 16:17:09] ParseError: syntax error, unexpected ',' in C:\xampp\htdocs\flextype\site\plugins\admin\admin.php at line 51
+[28-Mar-2019 16:17:11] ParseError: syntax error, unexpected ',' in C:\xampp\htdocs\flextype\site\plugins\admin\admin.php at line 51
+[28-Mar-2019 16:17:24] ErrorException: Warning: Illegal string offset 'title' in C:\xampp\htdocs\flextype\site\plugins\admin\admin.php at line 51
+[28-Mar-2019 16:17:25] ErrorException: Warning: Illegal string offset 'title' in C:\xampp\htdocs\flextype\site\plugins\admin\admin.php at line 51
+[28-Mar-2019 16:17:25] ErrorException: Warning: Illegal string offset 'title' in C:\xampp\htdocs\flextype\site\plugins\admin\admin.php at line 51
+[28-Mar-2019 16:19:44] ErrorException: Warning: Illegal string offset 'title' in C:\xampp\htdocs\flextype\site\plugins\admin\admin.php at line 51
+[28-Mar-2019 16:20:08] ErrorException: Warning: Illegal string offset 'title' in C:\xampp\htdocs\flextype\site\plugins\admin\admin.php at line 51
+[28-Mar-2019 16:20:09] ErrorException: Warning: Illegal string offset 'title' in C:\xampp\htdocs\flextype\site\plugins\admin\admin.php at line 51
+[28-Mar-2019 16:20:10] ErrorException: Warning: Illegal string offset 'title' in C:\xampp\htdocs\flextype\site\plugins\admin\admin.php at line 51
+[28-Mar-2019 16:20:10] ErrorException: Warning: Illegal string offset 'title' in C:\xampp\htdocs\flextype\site\plugins\admin\admin.php at line 51
+[28-Mar-2019 16:20:10] ErrorException: Warning: Illegal string offset 'title' in C:\xampp\htdocs\flextype\site\plugins\admin\admin.php at line 51
+[28-Mar-2019 16:20:10] ErrorException: Warning: Illegal string offset 'title' in C:\xampp\htdocs\flextype\site\plugins\admin\admin.php at line 51
+[28-Mar-2019 16:20:10] ErrorException: Warning: Illegal string offset 'title' in C:\xampp\htdocs\flextype\site\plugins\admin\admin.php at line 51
+[28-Mar-2019 16:20:10] ErrorException: Warning: Illegal string offset 'title' in C:\xampp\htdocs\flextype\site\plugins\admin\admin.php at line 51
+[28-Mar-2019 16:20:11] ErrorException: Warning: Illegal string offset 'title' in C:\xampp\htdocs\flextype\site\plugins\admin\admin.php at line 51
+[28-Mar-2019 16:20:11] ErrorException: Warning: Illegal string offset 'title' in C:\xampp\htdocs\flextype\site\plugins\admin\admin.php at line 51
+[28-Mar-2019 16:20:11] ErrorException: Warning: Illegal string offset 'title' in C:\xampp\htdocs\flextype\site\plugins\admin\admin.php at line 51
+[28-Mar-2019 16:20:11] ErrorException: Warning: Illegal string offset 'title' in C:\xampp\htdocs\flextype\site\plugins\admin\admin.php at line 51
+[28-Mar-2019 16:20:11] ErrorException: Warning: Illegal string offset 'title' in C:\xampp\htdocs\flextype\site\plugins\admin\admin.php at line 51
+[28-Mar-2019 16:20:12] ErrorException: Warning: Illegal string offset 'title' in C:\xampp\htdocs\flextype\site\plugins\admin\admin.php at line 51
+[28-Mar-2019 16:20:12] ErrorException: Warning: Illegal string offset 'title' in C:\xampp\htdocs\flextype\site\plugins\admin\admin.php at line 51
+[28-Mar-2019 16:20:12] ErrorException: Warning: Illegal string offset 'title' in C:\xampp\htdocs\flextype\site\plugins\admin\admin.php at line 51
+[28-Mar-2019 16:20:12] ErrorException: Warning: Illegal string offset 'title' in C:\xampp\htdocs\flextype\site\plugins\admin\admin.php at line 51
+[28-Mar-2019 16:20:12] ErrorException: Warning: Illegal string offset 'title' in C:\xampp\htdocs\flextype\site\plugins\admin\admin.php at line 51
+[28-Mar-2019 16:20:13] ErrorException: Warning: Illegal string offset 'title' in C:\xampp\htdocs\flextype\site\plugins\admin\admin.php at line 51
+[28-Mar-2019 16:20:13] ErrorException: Warning: Illegal string offset 'title' in C:\xampp\htdocs\flextype\site\plugins\admin\admin.php at line 51
+[28-Mar-2019 16:21:00] ErrorException: Warning: Illegal string offset 'title' in C:\xampp\htdocs\flextype\site\plugins\admin\admin.php at line 52
+[28-Mar-2019 16:22:45] RuntimeException: No item "admin_navigation.content" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 16:22:46] RuntimeException: No item "admin_navigation.content" exists in the registry. in C:\xampp\htdocs\flextype\vendor\flextype-components\registry\Registry.php at line 71
+[28-Mar-2019 16:26:42] Error: Class 'Flextype\Http' not found in C:\xampp\htdocs\flextype\site\plugins\admin\views\templates\content\entries\list.php at line 8
+[28-Mar-2019 16:26:50] Error: Class 'Flextype\Http' not found in C:\xampp\htdocs\flextype\site\plugins\admin\views\templates\content\entries\list.php at line 21
+[28-Mar-2019 16:26:51] Error: Class 'Flextype\Http' not found in C:\xampp\htdocs\flextype\site\plugins\admin\views\templates\content\entries\list.php at line 21
+[28-Mar-2019 16:26:51] Error: Class 'Flextype\Http' not found in C:\xampp\htdocs\flextype\site\plugins\admin\views\templates\content\entries\list.php at line 21
+[28-Mar-2019 16:27:28] ParseError: syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\xampp\htdocs\flextype\site\plugins\admin\views\templates\content\entries\list.php at line 28
+[28-Mar-2019 16:37:58] ErrorException: Warning: A non-numeric value encountered in C:\xampp\htdocs\flextype\site\plugins\admin\admin.php at line 61
+[28-Mar-2019 16:38:00] ErrorException: Warning: A non-numeric value encountered in C:\xampp\htdocs\flextype\site\plugins\admin\admin.php at line 61
+[28-Mar-2019 16:38:00] ErrorException: Warning: A non-numeric value encountered in C:\xampp\htdocs\flextype\site\plugins\admin\admin.php at line 61
+[28-Mar-2019 16:38:01] ErrorException: Warning: A non-numeric value encountered in C:\xampp\htdocs\flextype\site\plugins\admin\admin.php at line 61
+[28-Mar-2019 16:38:25] TypeError: Argument 1 passed to Flextype\Entries::processShortcodes() must be of the type string, array given, called in C:\xampp\htdocs\flextype\flextype\Entries.php on line 376 in C:\xampp\htdocs\flextype\flextype\Entries.php at line 426
+[28-Mar-2019 16:39:37] TypeError: Argument 1 passed to Flextype\Entries::processShortcodes() must be of the type string, array given, called in C:\xampp\htdocs\flextype\flextype\Entries.php on line 376 in C:\xampp\htdocs\flextype\flextype\Entries.php at line 426
+[28-Mar-2019 16:41:05] TypeError: Argument 1 passed to Flextype\Entries::processShortcodes() must be of the type string, array given, called in C:\xampp\htdocs\flextype\flextype\Entries.php on line 376 in C:\xampp\htdocs\flextype\flextype\Entries.php at line 426
+[28-Mar-2019 16:41:08] TypeError: Argument 1 passed to Flextype\Entries::processShortcodes() must be of the type string, array given, called in C:\xampp\htdocs\flextype\flextype\Entries.php on line 376 in C:\xampp\htdocs\flextype\flextype\Entries.php at line 426
+[28-Mar-2019 16:41:11] TypeError: Argument 1 passed to Flextype\Entries::processShortcodes() must be of the type string, array given, called in C:\xampp\htdocs\flextype\flextype\Entries.php on line 376 in C:\xampp\htdocs\flextype\flextype\Entries.php at line 426
+[28-Mar-2019 16:41:16] TypeError: Argument 1 passed to Flextype\Entries::processShortcodes() must be of the type string, array given, called in C:\xampp\htdocs\flextype\flextype\Entries.php on line 376 in C:\xampp\htdocs\flextype\flextype\Entries.php at line 426
+[28-Mar-2019 16:41:55] ErrorException: Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\flextype\flextype\Entries.php at line 261
+[28-Mar-2019 16:43:16] ErrorException: Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\flextype\flextype\Entries.php at line 261
+[28-Mar-2019 16:43:31] ErrorException: Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\flextype\flextype\Entries.php at line 261
+[28-Mar-2019 16:43:38] TypeError: Argument 1 passed to Flextype\YamlParser::decode() must be of the type string, null given, called in C:\xampp\htdocs\flextype\site\plugins\admin\classes\EntriesManager.php on line 308 in C:\xampp\htdocs\flextype\flextype\parsers\YamlParser.php at line 96
+[28-Mar-2019 16:43:51] TypeError: Argument 1 passed to Flextype\YamlParser::decode() must be of the type string, null given, called in C:\xampp\htdocs\flextype\site\plugins\admin\classes\EntriesManager.php on line 308 in C:\xampp\htdocs\flextype\flextype\parsers\YamlParser.php at line 96
+[28-Mar-2019 16:44:04] TypeError: Argument 1 passed to Flextype\Entries::processShortcodes() must be of the type string, array given, called in C:\xampp\htdocs\flextype\flextype\Entries.php on line 376 in C:\xampp\htdocs\flextype\flextype\Entries.php at line 426
+[28-Mar-2019 16:44:07] TypeError: Argument 1 passed to Flextype\YamlParser::decode() must be of the type string, null given, called in C:\xampp\htdocs\flextype\site\plugins\admin\classes\EntriesManager.php on line 308 in C:\xampp\htdocs\flextype\flextype\parsers\YamlParser.php at line 96
+[28-Mar-2019 16:54:17] TypeError: Argument 1 passed to Flextype\YamlParser::decode() must be of the type string, null given, called in C:\xampp\htdocs\flextype\site\plugins\admin\classes\EntriesManager.php on line 45 in C:\xampp\htdocs\flextype\flextype\parsers\YamlParser.php at line 96

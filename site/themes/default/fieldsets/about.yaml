@@ -1,0 +1,39 @@
+title: About
+fields:
+  x:
+    title: Camps
+    type: line
+    size: col-6
+  x2:
+    title: Camps2
+    type: line
+    size: col-6
+  tlf:
+    title: admin_tlf
+    type: custom_select
+    options: [opcio1: opcio1 ,opcio2: opcio2]
+    size: col-3
+  mail:
+    title: admin_mail
+    type: text
+    size: col-3
+  lang: 
+    title: Idioma
+    type: lang-select
+    size: col-3
+  media:
+    title: Media
+    type: media_select
+    size: col-3
+  x3:
+    title: Idioma
+    type: line
+    size: col-3
+  hide:
+      title: Idioma
+      type: hidden
+      size: col-9
+  lang2:
+    title: Idioma
+    type: lang-select
+    size: col-3
