@@ -5,14 +5,14 @@
 <?php Themes::view('admin/views/partials/navbar')
     ->assign('links',   [
                             'templates' => [
-                                            'link' => Http::getBaseUrl() . '/admin/templates',
+                                            'link' => Http::getBaseUrl() . '/admin/partials',
                                             'title' =>'Partials',
                                             'attributes' => ['class' => 'navbar-item active']
                                        ]
                         ])
     ->assign('buttons', [
                             'entries' => [
-                                            'link' => Http::getBaseUrl() . '/admin/templates/add',
+                                            'link' => Http::getBaseUrl() . '/admin/partials/add',
                                             'title' =>'New partial',
                                             'attributes' => ['class' => 'float-right btn']
                                        ]
