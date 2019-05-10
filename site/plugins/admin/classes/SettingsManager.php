@@ -42,7 +42,6 @@ class SettingsManager
                 Arr::delete($settings, 'token');
                 Arr::delete($settings, 'action');
                 Arr::set($settings, 'errors.display', (Http::post('errors.display') == '1' ? true : false));
-                Arr::set($settings, 'blogVisible', (Http::post('blogVisible') == '1' ? true : false));
                 Arr::set($settings, 'cache.enabled', (Http::post('cache.enabled') == '1' ? true : false));
                 Arr::set($settings, 'cache.lifetime', (int) Http::post('cache.lifetime'));
                 Arr::set($settings, 'entries.media.upload_images_quality', (int) Http::post('entries.media.upload_images_quality'));
@@ -85,6 +84,8 @@ class SettingsManager
         $sliders = array_diff(scandir($file.'sliders/'), array('.', '..'));
         $blogs = array_diff(scandir($file.'blogs/'), array('.', '..'));
         $gallerys = array_diff(scandir($file.'gallerys/'), array('.', '..'));
+        $parallaxs = array_diff(scandir($file.'parallaxs/'), array('.', '..'));
+        $homes = array_diff(scandir($file.'homes/'), array('.', '..'));
         foreach ($headers as $header) {
             $name = explode('.', $header);
             $headersComplet[$name[0]]=$name[0];
@@ -100,6 +101,14 @@ class SettingsManager
         foreach ($gallerys as $gallery) {
             $name = explode('.', $gallery);
             $gallerysComplet[$name[0]]=$name[0];
+        }
+        foreach ($parallaxs as $parallax) {
+            $name = explode('.', $parallax);
+            $parallaxsComplet[$name[0]]=$name[0];
+        }
+        foreach ($homes as $home) {
+            $name = explode('.', $home);
+            $homesComplet[$name[0]]=$name[0];
         }
         $cache_driver = ['auto' => 'Auto Detect',
                          'file' => 'File',
@@ -124,6 +133,8 @@ class SettingsManager
             ->assign('sliders',$slidersComplet)
             ->assign('blogs',$blogsComplet)
             ->assign('gallerys',$gallerysComplet)
+            ->assign('parallaxs',$parallaxsComplet)
+            ->assign('homes',$homesComplet)
             ->display();
     }
 }

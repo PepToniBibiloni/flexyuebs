@@ -1,0 +1,10 @@
+1558082925
+a:4:{i:0;a:8:{s:5:"title";s:5:"About";s:8:"template";s:4:"blog";s:8:"fieldset";s:4:"blog";s:4:"date";s:25:"December 25 2018 22:27:15";s:3:"url";s:21:"http://uebs.com/about";s:4:"slug";s:5:"about";s:8:"base_url";s:29:"http://uebs.com/site/entries/";s:7:"content";s:0:"";}i:1;a:8:{s:5:"title";s:7:"Gallery";s:8:"template";s:4:"blog";s:8:"fieldset";s:4:"blog";s:4:"date";s:25:"December 25 2018 22:27:15";s:3:"url";s:23:"http://uebs.com/gallery";s:4:"slug";s:7:"gallery";s:8:"base_url";s:29:"http://uebs.com/site/entries/";s:7:"content";s:0:"";}i:2;a:9:{s:5:"title";s:4:"Home";s:8:"template";s:4:"home";s:10:"visibility";s:7:"visible";s:4:"date";s:25:"December 25 2018 23:46:58";s:8:"fieldset";s:7:"default";s:3:"url";s:20:"http://uebs.com/home";s:4:"slug";s:4:"home";s:8:"base_url";s:29:"http://uebs.com/site/entries/";s:7:"content";s:304:"
+<h1 style="text-align: center;">
+    Hola! 
+</h1>
+<p style="text-align: center;" class="lead">
+    Welcome to your new Flextype powered website. 
+    <br>
+    Flextype is succesfully installed, you can start editing the content and customising your site in <a href="./admin">Admin panel</a> 
+</p>";}i:3;a:11:{s:5:"title";s:6:"Slider";s:8:"template";s:7:"default";s:8:"fieldset";s:6:"slider";s:4:"date";s:20:"May 10 2019 20:12:37";s:5:"frase";s:8:"Uebsapps";s:3:"btn";s:7:"Galeria";s:7:"btnLink";s:7:"galeria";s:3:"url";s:22:"http://uebs.com/slider";s:4:"slug";s:6:"slider";s:8:"base_url";s:29:"http://uebs.com/site/entries/";s:7:"content";s:0:"";}}

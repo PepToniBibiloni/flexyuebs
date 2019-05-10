@@ -1,0 +1,21 @@
+title: Slider
+fields:
+  frase:
+    title: Frase
+    type: text
+    size: col-12
+  btn:
+    title: Boton
+    type: text
+    size: col-6
+  btnLink:
+    title: Sección
+    type: custom_select
+    options: [galeria: Galeria ,blog: Blog,inicio: Inicio]
+    size: col-6
+  img:
+    title: Imagen
+    type: media_select
+    size: col-6
+
+    

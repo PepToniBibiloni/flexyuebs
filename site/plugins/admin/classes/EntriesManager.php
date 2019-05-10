@@ -351,14 +351,6 @@ class EntriesManager
         echo Form::hidden('token', Token::generate());
         echo Form::hidden('action', 'save-form');
 
-        $available_locales = Filesystem::getFilesList(PATH['plugins'] . '/admin/languages/', 'yaml');
-        $system_locales = Plugins::getLocales();
-        $locales = [];
-
-        foreach ($available_locales as $locale) {
-            $locales[basename($locale, '.yaml')] = $system_locales[basename($locale, '.yaml')];
-        }
-
         if (isset($form) > 0) {
             foreach ($form as $element => $property) {
                 // Create attributes
@@ -390,9 +382,11 @@ class EntriesManager
                 $form_value = Arr::keyExists($values, $element) ? Arr::get($values, $element) : $property['value'];
 
                 // Form label
-
-                $form_label = Form::labelCustom($element, __($property['title']), $property['font-size'], $property['margin-top']);
-
+              if (isset($property['font-size']) && isset($property['margin-top'])) {
+                  $form_label = Form::labelCustom($element, __($property['title']), $property['font-size'], $property['margin-top']);
+              }else{
+                  $form_label = Form::labelCustom($element, __($property['title']));
+              }
                 // Form elements
                 switch ($property['type']) {
 
@@ -432,10 +426,6 @@ class EntriesManager
                         $form_element = Form::select($form_element_name, EntriesManager::getMediaList(Http::get('entry'), false), $form_value, $property['attributes']);
                     break;
 
-                    case 'lang-select':
-                        $form_element= Form::select('locale', $locales, $form_value, ['class' => 'form-control', 'id' => 'entryTemplate']);
-                    break;
-
                     case 'line':
                         $form_element = Form::line($form_element_name,$property['attributes'] );
                     break;
@@ -456,14 +446,14 @@ class EntriesManager
                 } else if ($property['type'] == 'media_select') {
                     $form_element2 = Component\Html\Html::anchor('Media',Http::getCurrentUrl().'&media=true', $property['attributes']);
                     echo '<div class="form-group '.$property['size'].'">';
-                    echo '<div class="row">';
+                    echo '<div class="row" style="padding-left: 15px;">';
                     echo $form_label;
                     echo '</div>';
                     echo '<div class="row">';
-                    echo '<div class="col-lg-10" style="padding-right: 0px;padding-left: 0px;">';
+                    echo '<div class="col-lg-10" style="padding-right: 0px">';
                     echo $form_element ;
                     echo '</div>';
-                    echo '<div class="col-lg-2" style="padding-right: 0px;padding-left: 0px;">';
+                    echo '<div class="col-lg-2" style="padding-left: 0px;">';
                     echo $form_element2 ;
                     echo '</div>';
                     echo '</div>';

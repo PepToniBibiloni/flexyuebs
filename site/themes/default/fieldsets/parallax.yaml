@@ -1,0 +1,32 @@
+title: Slider
+fields:
+  frase1:
+    title: Frase 1
+    type: textarea
+    size: col-8
+  Afrase1:
+    title: Autor
+    type: text
+    size: col-4
+  frase2:
+    title: Frase 2
+    type: textarea
+    size: col-8
+  Afrase2:
+    title: Autor
+    type: text
+    size: col-4
+  frase3:
+    title: Frase 3
+    type: textarea
+    size: col-8
+  Afrase3:
+    title: Autor
+    type: text
+    size: col-4
+  img:
+    title: Imagen
+    type: media_select
+    size: col-6
+
+    

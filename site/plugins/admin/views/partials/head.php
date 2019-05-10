@@ -14,11 +14,11 @@ use function Flextype\Component\I18n\__;
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="UEBS">
 
 	<?php Event::dispatch('onAdminThemeMeta'); ?>
 
-	<title>UEBS</title>
+	<title><?= Registry::get('settings.title') ?> ADMIN</title>
 
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
@@ -40,11 +40,9 @@ use function Flextype\Component\I18n\__;
         .content-full-size .main-panel .navbar-fixed+.content {
             padding-top: 61px;
         }
-
         .content-full-size .main-panel .content {
             padding: 0;
         }
-
         .content-full-size .container-fluid {
             padding: 0;
         }

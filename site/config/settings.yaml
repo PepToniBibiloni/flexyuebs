@@ -1,4 +1,4 @@
-title: Flextype
+title: Uebs
 description: 'Modern Open Source Flat-File Content Management System'
 keywords: Hola
 robots: 'index, follow'
@@ -45,15 +45,22 @@ cache:
     table: flextype
 admin_panel:
   theme: light
-header: default
+header: op-counter
 slider: op-tr-blank-dark
 page:
+  home:
+    tipo: default
+    visible: '1'
+    posicion: '1'
   blog:
     tipo: default
     visible: '1'
-    posicion: '5'
+    posicion: '2'
   gallery:
     tipo: default
-    visible: '0'
-    posicion: '6'
-blogVisible: false
+    visible: '1'
+    posicion: '4'
+  parallax:
+    tipo: default
+    visible: '1'
+    posicion: '3'

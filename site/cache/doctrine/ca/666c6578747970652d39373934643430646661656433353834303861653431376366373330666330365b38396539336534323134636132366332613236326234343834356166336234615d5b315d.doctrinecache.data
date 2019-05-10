@@ -1,0 +1,10 @@
+1558086904
+a:8:{s:5:"title";s:4:"Home";s:8:"template";s:4:"home";s:8:"fieldset";s:4:"home";s:3:"url";s:20:"http://uebs.com/home";s:4:"slug";s:4:"home";s:8:"base_url";s:29:"http://uebs.com/site/entries/";s:4:"date";s:20:"May 10 2019 21:54:42";s:7:"content";s:300:"
+<h1 style="text-align: center;">
+    Welcome! 
+</h1>
+<p style="text-align: center;" class="lead">
+    Welcome to your new Flextype powered website. 
+    <br>
+    Flextype is succesfully installed, you can start editing the content and customising your site in <a href="./admin">Admin panel</a>.
+</p>";}

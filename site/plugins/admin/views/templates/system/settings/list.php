@@ -51,6 +51,24 @@ Themes::view('admin/views/partials/content-start')->display();
     </div>
 
 
+    <div class="col-md-4">
+        <div class="form-group">
+            <?= Form::label('page[home][tipo]', 'Inicio', ['for' => 'systemSettingsSystemEntriesMain']) ?>
+            <?= Form::select('page[home][tipo]', $homes, $settings['page']['home']['tipo'], ['class' => 'form-control', 'id' => 'systemSettingsSystemEntriesMain', 'required']) ?>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="form-group">
+            <?= Form::label('page[home][visible]', 'Visibilidad', ['for' => 'systemSettingsSystemEntriesMain']) ?>
+            <?= Form::select('page[home][visible]',[0 => __('admin_system_settings_system_errors_enabled_false'), 1 => __('admin_system_settings_system_errors_enabled_true')], $settings['page']['home']['visible'], ['class' => 'form-control', 'id' => 'systemSettingsSystemEntriesMain', 'required']) ?>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="form-group">
+            <?= Form::label('page[home][posicion]', 'Posicion', ['for' => 'systemSettingsSystemEntriesMain']) ?>
+            <?= Form::input('page[home][posicion]', $settings['page']['home']['posicion'], ['class' => 'form-control', 'id' => 'systemSettingsSystemEntriesMain', 'required']) ?>
+        </div>
+    </div>
 
 
     <div class="col-md-4">
@@ -71,6 +89,7 @@ Themes::view('admin/views/partials/content-start')->display();
             <?= Form::input('page[blog][posicion]', $settings['page']['blog']['posicion'], ['class' => 'form-control', 'id' => 'systemSettingsSystemEntriesMain', 'required']) ?>
         </div>
     </div>
+
 
 
     <div class="col-md-4">
@@ -94,6 +113,24 @@ Themes::view('admin/views/partials/content-start')->display();
 
 
 
+    <div class="col-md-4">
+        <div class="form-group">
+            <?= Form::label('page[parallax][tipo]', 'Parallax', ['for' => 'systemSettingsSystemEntriesMain']) ?>
+            <?= Form::select('page[parallax][tipo]', $parallaxs, $settings['page']['parallax']['tipo'], ['class' => 'form-control', 'id' => 'systemSettingsSystemEntriesMain', 'required']) ?>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="form-group">
+            <?= Form::label('page[parallax][visible]', 'Visibilidad', ['for' => 'systemSettingsSystemEntriesMain']) ?>
+            <?= Form::select('page[parallax][visible]',[0 => __('admin_system_settings_system_errors_enabled_false'), 1 => __('admin_system_settings_system_errors_enabled_true')], $settings['page']['parallax']['visible'], ['class' => 'form-control', 'id' => 'systemSettingsSystemEntriesMain', 'required']) ?>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="form-group">
+            <?= Form::label('page[parallax][posicion]', 'Posicion', ['for' => 'systemSettingsSystemEntriesMain']) ?>
+            <?= Form::input('page[parallax][posicion]', $settings['page']['parallax']['posicion'], ['class' => 'form-control', 'id' => 'systemSettingsSystemEntriesMain', 'required']) ?>
+        </div>
+    </div>
 
 
     <div class="col-md-12">
