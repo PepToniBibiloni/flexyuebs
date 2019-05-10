@@ -1,6 +1,6 @@
 title: Flextype
 description: 'Modern Open Source Flat-File Content Management System'
-keywords: 'flextype, php, cms, flat-file cms, flat cms, flatfile cms, html'
+keywords: Hola
 robots: 'index, follow'
 author:
   name: ''
@@ -45,3 +45,15 @@ cache:
     table: flextype
 admin_panel:
   theme: light
+header: default
+slider: op-tr-blank-dark
+page:
+  blog:
+    tipo: default
+    visible: '1'
+    posicion: '5'
+  gallery:
+    tipo: default
+    visible: '0'
+    posicion: '6'
+blogVisible: false

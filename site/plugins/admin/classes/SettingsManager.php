@@ -38,12 +38,11 @@ class SettingsManager
 
         if (isset($action) && $action == 'save-form') {
             if (Token::check((Http::post('token')))) {
-
                 $settings = $_POST;
-
                 Arr::delete($settings, 'token');
                 Arr::delete($settings, 'action');
                 Arr::set($settings, 'errors.display', (Http::post('errors.display') == '1' ? true : false));
+                Arr::set($settings, 'blogVisible', (Http::post('blogVisible') == '1' ? true : false));
                 Arr::set($settings, 'cache.enabled', (Http::post('cache.enabled') == '1' ? true : false));
                 Arr::set($settings, 'cache.lifetime', (int) Http::post('cache.lifetime'));
                 Arr::set($settings, 'entries.media.upload_images_quality', (int) Http::post('entries.media.upload_images_quality'));
@@ -80,6 +79,28 @@ class SettingsManager
             $themes[$theme] = $theme;
         }
 
+        $file = PATH['themes'] . '/' . Registry::get('settings.theme') . '/views/partials/';
+
+        $headers = array_diff(scandir($file.'headers/'), array('.', '..'));
+        $sliders = array_diff(scandir($file.'sliders/'), array('.', '..'));
+        $blogs = array_diff(scandir($file.'blogs/'), array('.', '..'));
+        $gallerys = array_diff(scandir($file.'gallerys/'), array('.', '..'));
+        foreach ($headers as $header) {
+            $name = explode('.', $header);
+            $headersComplet[$name[0]]=$name[0];
+        }
+        foreach ($sliders as $slider) {
+            $name = explode('.', $slider);
+            $slidersComplet[$name[0]]=$name[0];
+        }
+        foreach ($blogs as $blog) {
+            $name = explode('.', $blog);
+            $blogsComplet[$name[0]]=$name[0];
+        }
+        foreach ($gallerys as $gallery) {
+            $name = explode('.', $gallery);
+            $gallerysComplet[$name[0]]=$name[0];
+        }
         $cache_driver = ['auto' => 'Auto Detect',
                          'file' => 'File',
                          'apc' => 'APC',
@@ -94,11 +115,15 @@ class SettingsManager
                          'array' => 'Array'];
 
         Themes::view('admin/views/templates/system/settings/list')
-                ->assign('settings', Registry::get('settings'))
-                ->assign('cache_driver', $cache_driver)
-                ->assign('locales', $locales)
-                ->assign('entries', $entries)
-                ->assign('themes', $themes)
-                ->display();
+            ->assign('settings', Registry::get('settings'))
+            ->assign('cache_driver', $cache_driver)
+            ->assign('locales', $locales)
+            ->assign('entries', $entries)
+            ->assign('themes', $themes)
+            ->assign('headers',$headersComplet)
+            ->assign('sliders',$slidersComplet)
+            ->assign('blogs',$blogsComplet)
+            ->assign('gallerys',$gallerysComplet)
+            ->display();
     }
 }

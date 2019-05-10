@@ -37,13 +37,65 @@ Themes::view('admin/views/partials/content-start')->display();
         <h3 class="h3">Pagina</h3>
         <hr>
     </div>
-<!--    <div class="col-md-4">-->
-<!--        <div class="form-group">-->
-<!---->
-<!--            --><?//= Form::label('entries[main]', 'Header', ['for' => 'systemSettingsSystemEntriesMain']) ?>
-<!--            --><?//= Form::select('entries[main]', $headers, $settings['author']['email'], ['class' => 'form-control', 'id' => 'systemSettingsSystemEntriesMain', 'required']) ?>
-<!--        </div>-->
-<!--    </div>-->
+    <div class="col-md-6">
+        <div class="form-group">
+            <?= Form::label('header', 'Header', ['for' => 'systemSettingsSystemEntriesMain']) ?>
+            <?= Form::select('header', $headers, $settings['header'], ['class' => 'form-control', 'id' => 'systemSettingsSystemEntriesMain', 'required']) ?>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            <?= Form::label('slider', 'Slider', ['for' => 'systemSettingsSystemEntriesMain']) ?>
+            <?= Form::select('slider', $sliders, $settings['slider'], ['class' => 'form-control', 'id' => 'systemSettingsSystemEntriesMain', 'required']) ?>
+        </div>
+    </div>
+
+
+
+
+    <div class="col-md-4">
+        <div class="form-group">
+            <?= Form::label('page[blog][tipo]', 'Blog', ['for' => 'systemSettingsSystemEntriesMain']) ?>
+            <?= Form::select('page[blog][tipo]', $blogs, $settings['page']['blog']['tipo'], ['class' => 'form-control', 'id' => 'systemSettingsSystemEntriesMain', 'required']) ?>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="form-group">
+            <?= Form::label('page[blog][visible]', 'Visibilidad', ['for' => 'systemSettingsSystemEntriesMain']) ?>
+            <?= Form::select('page[blog][visible]',[0 => __('admin_system_settings_system_errors_enabled_false'), 1 => __('admin_system_settings_system_errors_enabled_true')], $settings['page']['blog']['visible'], ['class' => 'form-control', 'id' => 'systemSettingsSystemEntriesMain', 'required']) ?>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="form-group">
+            <?= Form::label('page[blog][posicion]', 'Posicion', ['for' => 'systemSettingsSystemEntriesMain']) ?>
+            <?= Form::input('page[blog][posicion]', $settings['page']['blog']['posicion'], ['class' => 'form-control', 'id' => 'systemSettingsSystemEntriesMain', 'required']) ?>
+        </div>
+    </div>
+
+
+    <div class="col-md-4">
+        <div class="form-group">
+            <?= Form::label('page[gallery][tipo]', 'Galeria', ['for' => 'systemSettingsSystemEntriesMain']) ?>
+            <?= Form::select('page[gallery][tipo]', $gallerys, $settings['page']['gallery']['tipo'], ['class' => 'form-control', 'id' => 'systemSettingsSystemEntriesMain', 'required']) ?>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="form-group">
+            <?= Form::label('page[gallery][visible]', 'Visibilidad', ['for' => 'systemSettingsSystemEntriesMain']) ?>
+            <?= Form::select('page[gallery][visible]',[0 => __('admin_system_settings_system_errors_enabled_false'), 1 => __('admin_system_settings_system_errors_enabled_true')], $settings['page']['gallery']['visible'], ['class' => 'form-control', 'id' => 'systemSettingsSystemEntriesMain', 'required']) ?>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="form-group">
+            <?= Form::label('page[gallery][posicion]', 'Posicion', ['for' => 'systemSettingsSystemEntriesMain']) ?>
+            <?= Form::input('page[gallery][posicion]', $settings['page']['gallery']['posicion'], ['class' => 'form-control', 'id' => 'systemSettingsSystemEntriesMain', 'required']) ?>
+        </div>
+    </div>
+
+
+
+
+
     <div class="col-md-12">
         <h3 class="h3"><?=  __('admin_system_settings_site'); ?></h3>
         <hr>

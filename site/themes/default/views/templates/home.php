@@ -1,16 +1,1 @@
-<?php namespace Flextype; ?>
-
-<?php Themes::view('partials/head')->display(); ?>
-<?php Themes::view('partials/navigationDarker')->display() ?>
-<?php Themes::view('partials/slider')->display();?>
-<section id="content">
-    <div class="content-wrap nopadding">
-        <?php
-        Themes::view('partials/home')->display();
-        Themes::view('partials/paralax')->display();
-        Themes::view('partials/blog')->display();
-        Themes::view('partials/contact')->display();
-        Themes::view('partials/gallery')->display(); ?>
-    </div>
-</section>
-<?php Themes::view('partials/footer')->display() ?>
+<?php namespace Flextype;use Flextype\Component\Registry\Registry;Themes::view('partials/head')->display();Themes::view('partials/headers/' . Registry::get('settings.header'))->display();Themes::view('partials/sliders/' . Registry::get('settings.slider'))->display();foreach (Registry::get('settings.page') as $key => $item) {    if ($item['visible']=='1') {        $items[$item['posicion']] = $item;        $items[$item['posicion']]['clase'] = $key;    }}ksort($items);foreach ($items as $section){    Themes::view('partials/'.$section['clase'].'s/' . Registry::get('settings.page.'.$section['clase'].'.tipo'))->display();}Themes::view('partials/tail')->display();

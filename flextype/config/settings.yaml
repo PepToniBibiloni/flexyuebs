@@ -61,7 +61,7 @@ entries:
 #
 # - display: Display errors or not.
 errors:
-  display: false
+  display: 2
 
 # Cache
 #
